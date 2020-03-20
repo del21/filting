@@ -4,7 +4,7 @@ import scipy.stats
 import numpy as np
 
 ap = pd.read_excel('Abbott_probes.xlsx')
-print('Input a probe')
+print('Input a probe (f.e. SpectrumGold). ATTENTION!!! Probe have to be within Abbott_probes')
 fc_name = str(input())
 def current_parameters(fc_name):
     parameters = {}
